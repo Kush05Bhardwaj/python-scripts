@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QApplication, QLabel, QWidget
 
 # --- Paths ---
 GIF_PATH = "F:/Projects/Meh/Evernight/giphy.gif"
-ICON_PATH = "F:/Projects/Meh/Evernight/icon.ico"  # keeps window icon
+ICON_PATH = "F:/Projects/Meh/Evernight/icon.ico"  
 
 class TransparentGIFOverlay(QWidget):
     def __init__(self):
