@@ -51,32 +51,3 @@ python script.py
 4. Converts the extracted text to speech using pyttsx3
 5. Plays the audio in real-time
 
-## Known Issues
-
-- The import statement has a typo: `pyttxs3` should be `pyttsx3`
-- `PyPDF2.PdfFileReader` is deprecated in newer versions - consider using `PyPDF2.PdfReader` instead
-- The script may have issues with:
-  - Image-based PDFs (scanned documents)
-  - PDFs with complex formatting
-  - Non-English text depending on TTS engine capabilities
-
-## Future Improvements
-
-- [ ] Add pause/resume functionality
-- [ ] Save audio output to file
-- [ ] Add voice selection and speed control
-- [ ] Support for multiple file formats
-- [ ] Progress indicator for long documents
-- [ ] Error handling for corrupted or protected PDFs
-
-## License
-
-Please refer to the LICENSE file in the root directory.
-
-## Contributing
-
-Feel free to fork this project and submit pull requests for any improvements.
-
-## Author
-
-Created as part of the python-scripts collection.
